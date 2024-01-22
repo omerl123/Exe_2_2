@@ -43,4 +43,14 @@ public class AppTest {
         String result = triangle.get_type().toString();
         assertEquals(expected, result.toString());
     }
+	@Test
+	public void Nottriangle(){
+        int a = 1;
+        int b = 5;
+        int c = 0;
+        triangle.classifyTriangle(a,b,c);
+        String expected =Triangle_Types.Nottriangle.toString();
+        String result = triangle.get_type().toString();
+        assertEquals(expected, result.toString());
+    }
 }  

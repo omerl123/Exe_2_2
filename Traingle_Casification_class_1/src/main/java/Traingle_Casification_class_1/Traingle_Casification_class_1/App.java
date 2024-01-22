@@ -30,14 +30,14 @@ class TriangleClassifier {
 	        	triangle= Triangle_Types.Scalene;
 	        }else {
 	        	
-	        	triangle=Triangle_Types.Scalene;
+	        	triangle=Triangle_Types.Nottriangle;
 	        }
 
 	       
 	    }
 
 	    private static boolean isTriangle(int a, int b, int c) {
-	        return b + b > c && a + c > b && b + c > a;
+	        return a + b > c && a + c > b && b + c > a;
 	    }
 
 	    private static boolean isIsosceles(int a, int b, int c) {

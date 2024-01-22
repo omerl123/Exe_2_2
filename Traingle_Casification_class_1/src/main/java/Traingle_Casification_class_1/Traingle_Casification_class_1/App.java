@@ -27,7 +27,7 @@ class TriangleClassifier {
 	        }else if(isIsosceles(a, b, c)) {
 	        	triangle= Triangle_Types.isosceles;
 	        }else if(isTriangle(a, b, c)){
-	        	triangle= Triangle_Types.Nottriangle;
+	        	triangle= Triangle_Types.Scalene;
 	        }else {
 	        	
 	        	triangle=Triangle_Types.Scalene;
